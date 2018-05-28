@@ -18,7 +18,7 @@ def getdeviceid():
     return deviceid
 
 
-restHost = 'http://192.168.86.240:5000'
+restHost = 'http://harwoods.no-ip.org:5000'
 deviceid = getdeviceid()
 
 mytime = TimeTank(deviceid)
